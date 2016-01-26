@@ -9,10 +9,10 @@ docker for programming
     - python
     - java
     - locale/TZ
-- java，java版本（registry.baidu.com/liaoqiqi/ubuntu-s:latest）
+- java （registry.baidu.com/liaoqiqi/ubuntu-java:latest）
     - base 
         - tomcat 
         - maven 
-    - demo
+    - demo （registry.baidu.com/liaoqiqi/ubuntu-java-demo:latest）
         - tomcat demo
 - python，python版本

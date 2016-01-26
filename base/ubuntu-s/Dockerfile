@@ -32,3 +32,5 @@ ENV PATH=$JAVA_HOME/bin:$PATH
 RUN apt-get autoclean && \
     apt-get autoremove && \
     rm -rf /var/lib/apt/lists/*
+
+COPY supervisord.conf /etc/supervisord.conf
