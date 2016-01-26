@@ -1,4 +1,4 @@
-FROM registry.baidu.com/liaoqiqi/ubuntu:v1
+FROM registry.baidu.com/liaoqiqi/ubuntu:latest
 MAINTAINER Qiqi Liao <knightliao@gmail.com>
 
 # 配置中文语言
